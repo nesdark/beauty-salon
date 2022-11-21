@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BeautySalon</title>
+
+    <!-- STYLE -->
+    <link rel="stylesheet" href="./main.css" />
+
+    <!-- FONTS -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Poppins:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="app">
+      <header>
+        <div class="logo">
+          <h1>beauty<span>salon</span>.</h1>
+        </div>
+        <nav>
+          <div class="menu">
+            <ul>
+              <li><a href="#home">Início</a></li>
+              <li><a href="">Sobre</a></li>
+              <li><a href="">Serviços</a></li>
+              <li><a href="">Depoimentos</a></li>
+              <li><a href="">Contato</a></li>
+            </ul>
+          </div>
+          <button class="open-menu" onclick="Menu.open()">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M3 12H21"
+                stroke="#69B99D"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M3 6H21"
+                stroke="#69B99D"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M3 18H21"
+                stroke="#69B99D"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </button>
+          <button class="close-menu" onclick="Menu.close()">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M18 6L6 18"
+                stroke="#69B99D"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M6 6L18 18"
+                stroke="#69B99D"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </button>
+        </nav>
+      </header>
+      <main>
+        <section id="home">
+          <div class="image">
+            <img
+              src="./images/home-img.png"
+              alt="Mulher sorrindo enquanto arruma o cabelo de outra mulher"
+            />
+          </div>
+          <h2>
+            Sáude natural para <br />
+            os seus cabelos
+          </h2>
+          <p>
+            Um salão exclusivo em São Paulo, especializado em tratamentos
+            naturais
+          </p>
+
+          <a href="#" class="button">Agendar um horário</a>
+        </section>
+        <div class="divider"></div>
+      </main>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
